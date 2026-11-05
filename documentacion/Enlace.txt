@@ -1,0 +1,17 @@
+Web principal
+
+Inicio: https://marcelquirof.github.io/propuesta-pausa-ucb/
+Mis puntos: https://marcelquirof.github.io/propuesta-pausa-ucb/puntos.html
+
+Maquetas
+
+Instagram: https://marcelquirof.github.io/propuesta-pausa-ucb/maquetas/instagram.html
+Instagram, abriendo directo la historia destacada del menú: https://marcelquirof.github.io/propuesta-pausa-ucb/maquetas/instagram.html#menu
+TikTok: https://marcelquirof.github.io/propuesta-pausa-ucb/maquetas/tiktok.html
+Ficha de Maps: https://marcelquirof.github.io/propuesta-pausa-ucb/maquetas/maps.html
+Tarjeta de sellos: https://marcelquirof.github.io/propuesta-pausa-ucb/maquetas/tarjeta.html
+
+Para la defensa
+
+QR para proyectar: https://marcelquirof.github.io/propuesta-pausa-ucb/qr.html
+QR de pago de demostración (no válido para pagar): https://marcelquirof.github.io/propuesta-pausa-ucb/demo/qr-demo-no-valido-para-pagar.png
