@@ -8,15 +8,13 @@ Propuesta académica UCB (Marketing Móvil MKD-314, II-2026) · Marcelo Quiroga 
 | Página | Ruta | Estado en la defensa |
 |---|---|---|
 | Web liviana (vitrina que termina en WhatsApp) | `/` | FUNCIONAL |
-| Consulta de puntos con enlace personal | `/puntos.html?c=CODIGO` | SIMULADO (clientes ficticios + Cliente B) |
+| Consulta de puntos por número de WhatsApp | `/puntos.html` | FUNCIONAL (lee la hoja de puntos de Google Sheets) |
 | Maqueta del perfil de Instagram + historia del anuncio | `/maquetas/instagram.html` (`#menu` abre la destacada) | SIMULADO |
 | Maqueta del perfil de TikTok | `/maquetas/tiktok.html` | SIMULADO |
 | Maqueta de la ficha de Maps | `/maquetas/maps.html` | PROPUESTO (maqueta) |
 | Maqueta de la tarjeta de sellos | `/maquetas/tarjeta.html` | PROPUESTO (maqueta) |
 | QR para proyectar en la defensa | `/qr.html` | — |
 | QR de pago «DEMO · no válido para pagar» | `/demo/qr-demo-no-valido-para-pagar.png` | SIMULADO |
-
-Enlaces personales de prueba: `puntos.html?c=K7M2QX` (3 sellos), `R4T9WB` (8), `H2PZ6N` (10, listo para canjear), `B5NQ8D` (Cliente B, 0).
 
 ## Qué se edita y dónde (sin programar)
 

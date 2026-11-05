@@ -1,4 +1,4 @@
-/* Service worker mínimo de la propuesta Pausa.
+/* Service worker mínimo de Pausa.
    Sirve para dos cosas: que Chrome en Android ofrezca «Instalar aplicación»
    y que la página abra aunque no haya señal por un momento.
    Siempre pide primero a la red (así los cambios de la web se ven al instante)
@@ -38,7 +38,7 @@ self.addEventListener("fetch", function (e) {
   if (req.method !== "GET") return;
   var url = new URL(req.url);
   if (url.origin !== self.location.origin) return;   // Google Sheets, WhatsApp, Maps: directo a la red
-  if (/\.csv$/i.test(url.pathname)) return;           // sellos de prueba: sin caché
+  if (/\.csv$/i.test(url.pathname)) return;           // sellos: siempre los del momento, sin caché
 
   e.respondWith(
     fetch(req, { cache: "no-cache" })   // revalida siempre: ignora la caché de 10 min de GitHub Pages

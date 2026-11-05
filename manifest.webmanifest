@@ -1,7 +1,7 @@
 {
   "name": "Pausa Coffee Express",
   "short_name": "Pausa",
-  "description": "Consulta tus sellos de Pausa Coffee Express (propuesta académica UCB).",
+  "description": "Consulta tus sellos de Pausa Coffee Express.",
   "lang": "es-BO",
   "start_url": "./puntos.html?origen=pwa",
   "scope": "./",

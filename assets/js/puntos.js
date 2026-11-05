@@ -1,7 +1,7 @@
 /* Consulta de puntos por número de WhatsApp (un solo enlace: puntos.html).
    El número queda guardado en este celular para la próxima visita.
-   Lee la pestaña «Consulta» publicada como CSV (numero, sellos, ultimo_sello)
-   o, si SHEET_CSV_URL está vacío, los números ficticios de datos/puntos-demo.csv.
+   Lee la pestaña «Consulta» de la hoja de puntos, publicada como CSV
+   (numero, sellos, ultimo_sello), desde SHEET_CSV_URL en config.js.
    Por diseño, solo muestra sellos: nunca nombres (cualquiera puede escribir
    un número ajeno). */
 (function () {
@@ -128,8 +128,8 @@
     clear();
     panel.appendChild(el("h1", null, "Mis puntos"));
     panel.appendChild(el("p", "muted", "Buscando tus sellos…"));
-    var url = C.SHEET_CSV_URL || "datos/puntos-demo.csv";
-    fetch(url, { cache: "no-store" })
+    if (!C.SHEET_CSV_URL) { showError(numero); return; }
+    fetch(C.SHEET_CSV_URL, { cache: "no-store" })
       .then(function (r) { if (!r.ok) throw new Error(r.status); return r.text(); })
       .then(function (t) {
         var row = parseCSV(t).filter(function (o) { return normalize(o.numero) === numero; })[0];
