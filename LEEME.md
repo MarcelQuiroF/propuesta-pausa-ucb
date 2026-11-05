@@ -27,12 +27,13 @@ Todo dato de la marca vive en **`assets/js/config.js`**. En GitHub: abrir el arc
 - **Precios:** no están en la web (opción A). Se editan solo en el catálogo de WhatsApp Business.
 - Textos de la página: `index.html` (buscar el texto y reemplazarlo).
 
-## Publicar en GitHub Pages (desde el navegador)
+## Publicación (GitHub Pages con GitHub Actions)
 
-1. github.com → **New repository** → nombre sugerido `propuesta-pausa-ucb` → **Public** → Create.
-2. En el repositorio vacío: **uploading an existing file** → arrastrar **todo el contenido** de esta carpeta (archivos y carpetas) → **Commit changes**.
-3. **Settings → Pages** → *Source*: **Deploy from a branch** → rama `main`, carpeta `/ (root)` → **Save**.
-4. En 1–2 minutos queda en `https://USUARIO.github.io/propuesta-pausa-ucb/`. Abrir `qr.html` en esa URL para proyectar los QR (se generan con la URL real).
+La web se publica sola con el flujo `.github/workflows/pages.yml`: cada cambio que llega a `main` (incluido un *Commit changes* hecho desde el navegador) se publica en 1–2 minutos.
+
+1. Una sola vez: **Settings → Pages** → *Build and deployment* → *Source*: **GitHub Actions**.
+2. Dirección: `https://marcelquirof.github.io/propuesta-pausa-ucb/`. Abrir `qr.html` en esa URL para proyectar los QR (se generan con la URL real).
+3. Para ver si una publicación salió bien: pestaña **Actions** → «Publicar web en GitHub Pages». Para volver a publicar sin cambios: **Run workflow**.
 
 ## Peso y medición
 
