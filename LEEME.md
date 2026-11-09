@@ -20,7 +20,7 @@ Propuesta académica UCB (Marketing Móvil MKD-314, II-2026) · Marcelo Quiroga 
 
 Todo dato de la marca vive en **`assets/js/config.js`**. En GitHub: abrir el archivo → lápiz → cambiar el valor entre comillas → *Commit changes*. La página se actualiza en 1–2 minutos.
 
-- **Número de WhatsApp:** `WA_NUMBER`. Hoy es el número de demostración. Cuando el dueño aplique la propuesta, se cambia por `59164581332` y desaparece solo el rótulo «(número de demostración)».
+- **Número de WhatsApp:** `WA_NUMBER`, hoy el número real de Pausa (`59164581332`). Si se vuelve a poner un número distinto de `REAL_NUMBER`, la web muestra sola el rótulo «(número de demostración)».
 - **Horario:** `HORARIO` (calcula «Abierto ahora / Cerrado»).
 - **Enlaces de Maps:** `MAPS` → reemplazar por el enlace exacto de cada ficha [VERIFICAR].
 - **Hoja de puntos:** `SHEET_CSV_URL` → el enlace CSV de la pestaña «Consulta».

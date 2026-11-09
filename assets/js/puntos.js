@@ -129,7 +129,9 @@
     panel.appendChild(el("h1", null, "Mis puntos"));
     panel.appendChild(el("p", "muted", "Buscando tus sellos…"));
     if (!C.SHEET_CSV_URL) { showError(numero); return; }
-    fetch(C.SHEET_CSV_URL, { cache: "no-store" })
+    // El parámetro t evita que el navegador o Google entreguen una copia vieja del CSV
+    var url = C.SHEET_CSV_URL + (C.SHEET_CSV_URL.indexOf("?") < 0 ? "?" : "&") + "t=" + Date.now();
+    fetch(url, { cache: "no-store" })
       .then(function (r) { if (!r.ok) throw new Error(r.status); return r.text(); })
       .then(function (t) {
         var row = parseCSV(t).filter(function (o) { return normalize(o.numero) === numero; })[0];

@@ -5,12 +5,10 @@
    ===================================================================== */
 window.PAUSA = {
   /* --- Número de WhatsApp ---------------------------------------------
-     DEMOSTRACIÓN: 59157901276 (número del equipo, con aviso de demo).
-     Cuando el dueño aplique la propuesta, cambiar SOLO esta línea por:
-     WA_NUMBER: "59164581332",                                          */
-  WA_NUMBER: "59157901276",
-
-  /* Número real de Pausa (no se enlaza mientras dure la demostración) */
+     Número real de Pausa (desde el 09/11/2026). El de demostración del
+     equipo era 59157901276: si WA_NUMBER vuelve a ser distinto de
+     REAL_NUMBER, la web muestra sola el rótulo «(número de demostración)». */
+  WA_NUMBER: "59164581332",
   REAL_NUMBER: "59164581332",
 
   /* --- Textos prellenados por canal (tabla 2.2) --------------------- */
