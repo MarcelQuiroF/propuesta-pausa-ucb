@@ -45,7 +45,7 @@ window.PAUSA = {
      Pegar aquí el enlace de la pestaña «Consulta» publicada como CSV
      (Archivo > Compartir > Publicar en la web > Consulta > CSV).
      Si queda vacío, la consulta de puntos muestra un aviso de error.   */
-  SHEET_CSV_URL: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRv5ElpYGW1CR7QO4uydRfbfoQ9umkOJQt1qEhhYd8cq-c1VwHiKpxEZ6nsmX-EHwHjmDw00E1VQtr_/pub?gid=1663928436&single=true&output=csv",
+  SHEET_CSV_URL: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQGRYqLiNUBNNWCeuYbgLXp2PiuIYVsHjgDSVX4sdldyp6DkqnTX6wsC3Ap9k7_LVEHMYMYO6cfZIs_/pub?gid=1016881324&single=true&output=csv",
 
   SELLOS_META: 10,
   ACTUALIZADO: "14/10/2026"
